@@ -38,21 +38,24 @@ if (window.DeviceOrientationEvent) {
 			}
 		
 			layer0.style.transform =
-					'translate3d(' + (0.15 * x_translation) + 'px, ' + (0.15 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.01 * x_translation) + 'px, ' + (0.01 * y_translation) + 'px, 0)';
 			layer0.style.webkitTransform =
-					'translate3d(' + (0.15 * x_translation) + 'px, ' + (0.15 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.01 * x_translation) + 'px, ' + (0.01 * y_translation) + 'px, 0)';
+
 			layer1.style.transform =
-					'translate3d(' + (0.25 * x_translation) + 'px, ' + (0.25 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.03 * x_translation) + 'px, ' + (0.03 * y_translation) + 'px, 0)';
 			layer1.style.webkitTransform =
-					'translate3d(' + (0.25 * x_translation) + 'px, ' + (0.25 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.03 * x_translation) + 'px, ' + (0.03 * y_translation) + 'px, 0)';
+
 			layer2.style.transform =
-					'translate3d(' + (0.35 * x_translation) + 'px, ' + (0.35 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.05 * x_translation) + 'px, ' + (0.05 * y_translation) + 'px, 0)';
 			layer2.style.webkitTransform =
-					'translate3d(' + (0.35 * x_translation) + 'px, ' + (0.35 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.05 * x_translation) + 'px, ' + (0.05 * y_translation) + 'px, 0)';
+
 			layer3.style.transform =
-					'translate3d(' + (0.45 * x_translation) + 'px, ' + (0.45 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.07 * x_translation) + 'px, ' + (0.07 * y_translation) + 'px, 0)';
 			layer3.style.webkitTransform =
-					'translate3d(' + (0.45 * x_translation) + 'px, ' + (0.45 * y_translation) + 'px, 0)';
+					'translate3d(' + (0.07 * x_translation) + 'px, ' + (0.07 * y_translation) + 'px, 0)';
 
 	});
 	
