@@ -1,0 +1,186 @@
+/* General */
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #EEE;
+  font-family: 'Inter', sans-serif;
+  font-size: 90%;
+  background: #F0F0F0;
+}
+
+/* Title and Subtitle */
+
+.header-content{
+  padding-top: 40px;
+  padding-bottom: 2px;
+  padding-left: 60px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+h2 {
+  font-family: 'Inter' sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+/* Paragraph */
+
+.section-content{
+  padding-top: 2px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 1.5;
+}
+
+p {
+  color: black;
+}
+
+/* CTA Buttons */
+
+a {
+  transition-duration: 0.2s;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background-color: #FFD600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+  transition-duration: 0.25s;
+}
+
+button:hover {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: black;
+  font-weight: bold;
+
+  transition-duration: 0.25s;
+  background-color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button:active{
+font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: black;
+  font-weight: bold;
+
+  transition-duration: 0.25s;
+  background-color: #FFD600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
+
+/* Desktop */
+
+@media screen and (min-width: 801px) {
+  .section-content {
+    font-size: 24px;
+  }
+  button{
+    font-size: 22px;
+  }
+  button:hover{
+    font-size: 22px;
+  }
+  button:active{
+    font-size: 22px;
+  }
+  h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 15px;
+}
+h2 {
+  font-family: 'Inter' sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 15px;
+}
+}
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+  .section-content {
+    font-size: 20px;
+  }
+  button{
+    font-size: 18px;
+  }
+  button:hover{
+    font-size: 18px;
+  }
+  button:active{
+    font-size: 18px;
+  }
+  h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 15px;
+}
+h2 {
+  font-family: 'Inter' sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 15px;
+}
+}
