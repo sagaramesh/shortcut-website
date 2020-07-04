@@ -154,6 +154,9 @@ h2 {
   font-weight: 500;
   line-height: 15px;
 }
+.header-content{
+  padding-left: 60px;
+}
 }
 
 /* Mobile */
@@ -161,6 +164,7 @@ h2 {
 @media screen and (max-width: 800px) {
   .section-content {
     font-size: 20px;
+      padding-left: 30px;
   }
   button{
     font-size: 18px;
@@ -182,5 +186,8 @@ h2 {
   font-size: 22px;
   font-weight: 500;
   line-height: 15px;
+}
+.header-content{
+  padding-left: 30px;
 }
 }
