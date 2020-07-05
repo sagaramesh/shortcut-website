@@ -366,6 +366,37 @@ img {
   font-size: 24px;
 }
 
+/* Footer */
+
+.footer-container{
+  text-align:left;
+
+  padding-top: 20px;
+  padding-bottom: 28px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.footerlinks {
+  text-decoration: none;
+  color: #808080;
+}
+
+.footerslash {
+  text-decoration: none;
+  color: #808080;
+}
+
+.footerlinks:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footerslash:hover {
+  text-decoration: none;
+  color: #808080;
+}
+
 /* ------------------------------ Desktop ------------------------------ */
 
 @media screen and (min-width: 801px) {
@@ -427,6 +458,34 @@ h6 {
 .text-list{
   padding-left: 60px;
 }
+.footer-container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+.footerlinks {
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #808080;
+  }
+
+.footerlinks:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+.footerslash {
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #808080;
+  }
+
+.footerslash:hover {
+    text-decoration: none;
+    color: 808080;
+  }
 }
 
 /* ------------------------------ Mobile ------------------------------ */
@@ -492,4 +551,32 @@ h6 {
 .text-list{
   padding-left: 30px;
 }
+.footer-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .footerlinks {
+    padding-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #808080;
+  }
+
+  .footerlinks:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footerslash {
+    padding-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #808080;
+  }
+
+.footerslash:hover {
+    text-decoration: none;
+    color: 808080;
+  }
 }
