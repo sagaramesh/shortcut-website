@@ -9,6 +9,51 @@ body {
   background: #F0F0F0;
 }
 
+/* Page Header */
+
+.page-header{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Banners */
+
+.banner {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+img{
+  display: block;
+}
+
+.banner-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 10px;
+}
+
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
 /* Title and Subtitle */
 
 .header-content{
@@ -33,7 +78,7 @@ h2 {
 
 /* Paragraph */
 
-.section-content{
+.paragraph-content{
   padding-top: 2px;
   padding-bottom: 40px;
   padding-left: 60px;
@@ -45,17 +90,20 @@ p {
   color: black;
 }
 
-/* CTA Buttons */
+/* Page Header Links */
 
 a {
   transition-duration: 0.2s;
-  color: black;
   text-decoration: none;
+  color:#909090;
 }
 
 a:hover {
   text-decoration: none;
+  color:#FFFFFF;
 }
+
+/* CTA Buttons */
 
 button {
   font-family: 'Inter', sans-serif;
@@ -127,10 +175,87 @@ button:focus {
   outline:0;
 }
 
-/* Desktop */
+/* Carousel & Cards */
+
+.carousel{
+  padding-top:14px; 
+  padding-bottom:10px;
+}
+
+.carousel-button{
+  padding-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.carousel-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-padder{
+  display: inline-block;
+  width: 60px;
+  height: 200px;
+}
+
+.card {
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.card-image {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .2s ease;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.card-CTA-container {
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-image:hover .image {
+  filter: brightness(40%);
+}
+
+.card-image:hover .card-CTA-container {
+  opacity: 1;
+}
+
+.card-CTA {
+  color: white;
+  font-size: 24px;
+}
+
+/* ------------------------------ Desktop ------------------------------ */
 
 @media screen and (min-width: 801px) {
-  .section-content {
+  .paragraph-content {
     font-size: 24px;
   }
   button{
@@ -157,12 +282,33 @@ h2 {
 .header-content{
   padding-left: 60px;
 }
+.page-header{
+  padding-left: 60px;
+}
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 8px;
+}
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.carousel-padder{
+  width: 60px;
+}
+.carousel-button{
+  padding-left: 60px;
+}
 }
 
-/* Mobile */
+/* ------------------------------ Mobile ------------------------------ */
 
 @media screen and (max-width: 800px) {
-  .section-content {
+  .paragraph-content {
     font-size: 20px;
       padding-left: 30px;
   }
@@ -188,6 +334,27 @@ h2 {
   line-height: 15px;
 }
 .header-content{
+  padding-left: 30px;
+}
+.page-header{
+  padding-left: 30px;
+}
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 8px;
+}
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.carousel-padder{
+  width: 30px;
+}
+.carousel-button{
   padding-left: 30px;
 }
 }
