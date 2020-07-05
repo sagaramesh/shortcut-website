@@ -76,6 +76,39 @@ h2 {
   line-height: 15px;
 }
 
+/* Text List */
+
+.text-list{
+  padding-left: 60px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.text-item{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+h6 {
+  font-family: 'Inter' sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
 /* Paragraph */
 
 .paragraph-content{
@@ -101,6 +134,17 @@ a {
 a:hover {
   text-decoration: none;
   color:#FFFFFF;
+}
+
+a.list {
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+a.list:hover {
+  text-decoration: none;
+  color:red;
 }
 
 /* CTA Buttons */
@@ -297,10 +341,20 @@ h4 {
   font-weight: 500;
   line-height: 40px;
 }
+h5 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 20px;
+}
 .carousel-padder{
   width: 60px;
 }
 .carousel-button{
+  padding-left: 60px;
+}
+.text-list{
   padding-left: 60px;
 }
 }
@@ -351,10 +405,20 @@ h4 {
   font-weight: 500;
   line-height: 20px;
 }
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 18px;
+}
 .carousel-padder{
   width: 30px;
 }
 .carousel-button{
+  padding-left: 30px;
+}
+.text-list{
   padding-left: 30px;
 }
 }
