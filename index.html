@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/ecoStyle.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
   <title>Sagar Ramesh</title>
@@ -70,7 +70,7 @@
   </div>
 </div>
 <div class="carousel-button" style="background-color:#000000;">
-	<button onclick="openYT()">Watch more →</button>
+	<button class="light" onclick="openYT()">Watch more →</button>
 </div>
 
 <!-- Tech - Title and subtitle -->
@@ -82,14 +82,72 @@
   </div>
 </div>
 
-<!-- Paragraph -->
+<!-- Carousel -->
 
-<div class="paragraph-container" style="background-color: #ffffff">
-  <div class="paragraph-content">
-    <p style="color:#202020;">Loop Kit is a set of Unity scripts for motion designers. The package turns common animation patterns into presets that you can customize.</p>
-    <br>
-    <button onclick="openLoopkit()">Explore my code →</button>
-  </div> 
+<div class="carousel" style="background-color:#ffffff">
+  <div class="carousel-wrapper">
+    <!-- Move first carousel item over -->
+    <div class="carousel-padder"></div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/l/BJGxn')">
+        <div class="card-image">
+          <img src="img/cardBG.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+  	  <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/l/BJGxn')">
+        <div class="card-image">
+          <img src="img/cardBG.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/l/BJGxn')">
+        <div class="card-image">
+          <img src="img/cardBG.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/l/BJGxn')">
+        <div class="card-image">
+          <img src="img/cardBG.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Item -->
+
+      <div class="card" onClick="parent.open('https://gumroad.com/l/BJGxn')">
+        <div class="card-image">
+          <img src="img/cardBG.png" class="image" width="198" height="198">
+          <div class="card-CTA-container">
+            <div class="card-CTA"><b>View</b></div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+<div class="carousel-button" style="background-color:#ffffff;">
+	<button class="dark" onclick="openGithub()">Explore my code →</button>
 </div>
 
 <!-- Writing - Title and subtitle -->
@@ -119,14 +177,14 @@
 </div>
 
 <div class="carousel-button" style="background-color:#000000;">
-	<button onclick="openSubstack()">Read more →</button>
+	<button class="light" onclick="openSubstack()">Read more →</button>
 </div>
 
 <script>
 function openYT() {
   window.open("https://www.youtube.com/channel/UCnutpdQUfdiy-PTiyTADOGw/featured")
 }
-function openLoopkit() {
+function openGithub() {
   window.open("https://github.com/sagaramesh")
 }
 function openSubstack() {

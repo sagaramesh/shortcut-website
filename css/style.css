@@ -136,6 +136,8 @@ a:hover {
   color:#FFFFFF;
 }
 
+/* Text List Links */
+
 a.list {
   transition-duration: 0.2s;
   text-decoration: none;
@@ -144,12 +146,12 @@ a.list {
 
 a.list:hover {
   text-decoration: none;
-  color:red;
+  color:#FFD600;
 }
 
-/* CTA Buttons */
+/* CTA Button - Light */
 
-button {
+button.light {
   font-family: 'Inter', sans-serif;
   font-size: 22px;
 
@@ -162,39 +164,17 @@ button {
   border: none;
   color: black;
   font-weight: bold;
-  background-color: #FFD600;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-
-  transition-duration: 0.25s;
-}
-
-button:hover {
-  font-family: 'Inter', sans-serif;
-  font-size: 22px;
-
-  padding-top:14px;
-  padding-bottom:14px;
-  padding-left:28px;
-  padding-right:28px;
-
-  border-radius: 60px;
-  border: none;
-  color: black;
-  font-weight: bold;
-
-  transition-duration: 0.25s;
   background-color: #FFFFFF;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+
+  transition-duration: 0.25s;
 }
 
-button:active{
-font-family: 'Inter', sans-serif;
+button.light:hover {
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
 
   padding-top:14px;
@@ -213,6 +193,96 @@ font-family: 'Inter', sans-serif;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+}
+
+button.light:active{
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: black;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+  transition-duration: 0.25s;
+}
+
+/* CTA Button - Yellow */
+
+button.dark {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+  transition-duration: 0.25s;
+}
+
+button.dark:hover {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: black;
+  font-weight: bold;
+
+  transition-duration: 0.25s;
+  background-color: #FFD600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button.dark:active{
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+
+  padding-top:14px;
+  padding-bottom:14px;
+  padding-left:28px;
+  padding-right:28px;
+
+  border-radius: 60px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+  transition-duration: 0.25s;
 }
 
 button:focus {
@@ -269,7 +339,7 @@ img {
   display: block;
   transition: .2s ease;
   backface-visibility: hidden;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .card-CTA-container {
@@ -411,6 +481,7 @@ h5 {
 
 h6 {
   font-size: 18px;
+  line-height: 32px;
 }
 .carousel-padder{
   width: 30px;
