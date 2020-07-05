@@ -9,6 +9,54 @@ body {
   background: #F0F0F0;
 }
 
+p {
+  color: black;
+}
+
+p.footer{
+  color:#808080;
+  font-size: 22px;
+}
+
+/* Page Header Links */
+
+a.title {
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+a.title:hover {
+  text-decoration: none;
+  color:#FFD600;
+}
+
+/* Page Footer Links */
+
+a.footer {
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+a.footer:hover {
+  text-decoration: none;
+  color:#FFD600;
+}
+
+/* Text List Links */
+
+a.list {
+  transition-duration: 0.2s;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+a.list:hover {
+  text-decoration: none;
+  color:#FFD600;
+}
+
 /* Page Header */
 
 .page-header{
@@ -117,36 +165,6 @@ h6 {
   padding-left: 60px;
   padding-right: 60px;
   line-height: 1.5;
-}
-
-p {
-  color: black;
-}
-
-/* Page Header Links */
-
-a {
-  transition-duration: 0.2s;
-  text-decoration: none;
-  color:#909090;
-}
-
-a:hover {
-  text-decoration: none;
-  color:#FFFFFF;
-}
-
-/* Text List Links */
-
-a.list {
-  transition-duration: 0.2s;
-  text-decoration: none;
-  color:#FFFFFF;
-}
-
-a.list:hover {
-  text-decoration: none;
-  color:#FFD600;
 }
 
 /* CTA Button - Light */
@@ -377,26 +395,6 @@ img {
   padding-right: 60px;
 }
 
-.footerlinks {
-  text-decoration: none;
-  color: #808080;
-}
-
-.footerslash {
-  text-decoration: none;
-  color: #808080;
-}
-
-.footerlinks:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.footerslash:hover {
-  text-decoration: none;
-  color: #808080;
-}
-
 /* ------------------------------ Desktop ------------------------------ */
 
 @media screen and (min-width: 801px) {
@@ -463,29 +461,9 @@ h6 {
     padding-right: 60px;
   }
 
-.footerlinks {
-    padding-right: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #808080;
-  }
-
-.footerlinks:hover {
-    text-decoration: none;
-    color: white;
-  }
-
-.footerslash {
-    padding-right: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #808080;
-  }
-
-.footerslash:hover {
-    text-decoration: none;
-    color: 808080;
-  }
+.footer{
+  line-height: 15px;
+}
 }
 
 /* ------------------------------ Mobile ------------------------------ */
@@ -555,28 +533,10 @@ h6 {
     padding-left: 30px;
     padding-right: 30px;
   }
-
-  .footerlinks {
-    padding-right: 10px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #808080;
-  }
-
-  .footerlinks:hover {
-    text-decoration: none;
-    color: white;
-  }
-
-  .footerslash {
-    padding-right: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #808080;
-  }
-
-.footerslash:hover {
-    text-decoration: none;
-    color: 808080;
-  }
+p.footer {
+  font-family: 'Inter' sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
 }
