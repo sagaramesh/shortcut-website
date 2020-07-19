@@ -14,8 +14,12 @@ p {
 }
 
 p.footer{
-  color:#808080;
+  color:#909090;
   font-size: 22px;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 /* Page Header Links */
@@ -31,6 +35,10 @@ a.title:hover {
   color:#FFD600;
 }
 
+a.title:visited {
+  text-decoration: none;
+}
+
 /* Page Footer Links */
 
 a.footer {
@@ -44,6 +52,10 @@ a.footer:hover {
   color:#FFD600;
 }
 
+a.footer:visited {
+  text-decoration: none;
+}
+
 /* Text List Links */
 
 a.list {
@@ -55,6 +67,10 @@ a.list {
 a.list:hover {
   text-decoration: none;
   color:#FFD600;
+}
+
+a.list:visited {
+  text-decoration: none;
 }
 
 /* Page Header */
